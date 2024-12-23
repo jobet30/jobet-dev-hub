@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Link } from "gatsby";
-import heroImage from "../images/hero-image.jpg";
 import { useState } from "react";
 
 const Hero = () => {
@@ -14,11 +13,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section
-      className="relative w-full h-screen bg-cover bg-center"
-      style={{ backgroundImage: `url(${heroImage})` }}
-    >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+    <section className="relative w-full h-screen">
       <div className="relative z-10 flex items-center justify-center h-full text-center text-white">
         <div className="max-w-3xl mx-auto px-6">
           <h1

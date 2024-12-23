@@ -124,12 +124,12 @@ const Navbar = () => {
         id="mobile-menu"
         className={`md:hidden fixed top-0 right-0 left-0 bg-gray-800 bg-opacity-90 transition-all duration-500 ease-in-out transform ${
           isMobileMenuOpen
-            ? "translate-y-0 opacity-100 h-auto"  // Adjust height here
-            : "-translate-y-full opacity-0 h-0"   // Collapse to no height
+            ? "translate-y-0 opacity-100 h-auto"
+            : "-translate-y-full opacity-0 h-0"
         }`}
         style={{
-          maxHeight: "50vh",  // Restrict maximum height
-          borderRadius: "20px 20px 0 0",  // Apply curve to top corners
+          maxHeight: "50vh",
+          borderRadius: "20px 20px 0 0",
         }}
       >
         <button
@@ -137,7 +137,7 @@ const Navbar = () => {
           className="absolute top-6 right-6 text-3xl text-white z-40"
           aria-label="Close mobile menu"
           style={{
-            borderRadius: "50%",  // Make the close button circular
+            borderRadius: "50%",
             padding: "10px",
           }}
         >
